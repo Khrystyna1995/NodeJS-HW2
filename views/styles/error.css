@@ -1,0 +1,39 @@
+body {
+    font-family: 'Texturina', serif;
+    color: darkred;
+}
+* {box-sizing: border-box}
+a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+.welcome{
+    font-family: 'Nerko One', cursive;
+    font-size: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkred;
+}
+
+.container {
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #a9000073;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}

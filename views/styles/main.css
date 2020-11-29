@@ -1,0 +1,41 @@
+body {
+    font-family: 'Texturina', serif;
+    color: darkred ;
+}
+* {box-sizing: border-box}
+a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+.welcome{
+    font-family: 'Nerko One', cursive;
+    font-size: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkred;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #8b000026;
+    border-radius: 30%;
+}
+
+.loginBtn, .registerBtn{
+    background-color: #a9000073;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginBtn:hover, .registerBtn:hover {
+    opacity: 0.8;
+}
