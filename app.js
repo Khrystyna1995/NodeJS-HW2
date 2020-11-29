@@ -17,7 +17,7 @@ app.set('views', path.join(process.cwd(), 'views'));
 
 
 let isUserLog = false;
-let errorMsg = '';
+let errorMsg = 'Try again';
 
 // MAIN
 
